@@ -1,81 +1,36 @@
-# bitaddress.org
-JavaScript Client-Side Bitcoin Wallet Generator
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Now Bitcoin addresses and their corresponding private key can be conveniently 
-generated in a web browser.
+## Getting Started
 
-The bitaddress.org project provides an all-in-one HTML document with embedded
-JavaScript/Css/Images. The JavaScript is readable not minified and contains no
-XMLHttpRequest's (no AJAX). The benefit of this technique is you can load the 
-JavaScript locally and trust that the JavaScript did not change after being 
-loaded. 
+First, run the development server:
 
-Here is a link to the BitcoinTalk.org forum topic discussing this project:
-https://bitcointalk.org/index.php?topic=43496.0
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Please send DONATIONS for this project to Bitcoin Address: 
-1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-END USER NOTES:
+## Learn More
 
- 1) For Bulk Wallet I recommended using Google Chrome, it's the fastest.
+To learn more about Next.js, take a look at the following resources:
 
- 2) Requires IE9+, Firefox, Chrome or sufficient JavaScript support.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
- 3) Mobile Safari only works with iPhone4 or newer devices.
-    Older devices timeout while executing JavaScript.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
- 4) DO NOT use Opera Mini it renders JavaScript output server side, therefore
-    they might record the private key you generated.
+## Deploy on Vercel
 
- 5) BIP38 most likely will not work on mobile devices due to hardware limitations.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-
-Notice of Copyrights and Licenses:
----------------------------------------
-The bitaddress.org project, software and embedded resources are
-copyright bitaddress.org.
-
-The bitaddress.org name and logo are not part of the open source
-license.
-
-Portions of the all-in-one HTML document contain JavaScript codes that
-are the copyrights of others. The individual copyrights are included
-throughout the document along with their licenses. Included JavaScript
-libraries are separated with HTML script tags.
-
-Summary of JavaScript functions with a redistributable license:
-
-JavaScript function	|	License
--------------------	|	--------------
-Array.prototype.map	|	Public Domain
-window.Crypto | BSD License
-window.SecureRandom	| BSD License
-window.EllipticCurve	|	BSD License
-window.BigInteger |	BSD License
-window.QRCode | MIT License
-window.Bitcoin | MIT License
-
-The bitaddress.org software is available under The MIT License (MIT)
-Copyright (c) 2011-2013 bitaddress.org
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
